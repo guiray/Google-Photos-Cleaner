@@ -36,4 +36,5 @@ if __name__ == "__main__":
     if os.path.isdir(folder_path):
         process_google_photos(folder_path)
     else:
-        print("❌ Invalid folder path. Please check and try again.")
+
+        print("Invalid folder path. Please check and try again.")
